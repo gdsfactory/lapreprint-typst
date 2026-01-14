@@ -109,4 +109,7 @@
 
 [-IMPORTS-]
 
+#import "@preview/shadowed:0.2.0": shadowed
+#let card(content) = shadowed(radius: 6pt, inset: 10pt, fill: rgb(247,247,247), content)
+
 [-CONTENT-]
